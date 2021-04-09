@@ -2,35 +2,67 @@
 <html>
 <head>
 <meta charset='utf-8'>
+<style>
+table, th, tr, td {
+	border: solid 1px black;
+	border-collapse: collapse;
+	padding: 8px;
+}
+</style>
 </head>
 <body>
-<h3>회원 가입</h3>
-<form action="프로필 만들기.html">
-    -이름: <input type="text"><br><br>
-    -비밀번호: <input type="password"><br><br>
-    -성별:
-    <input type="radio" name="info"> 남성
-    <input type="radio" name="info"> 여성<br><br>
+<h3>시간표</h3>
+<table>
+	<tr>
+		<td rowspan="2">교시/요일</td><td colspan="6">과목명</td>
+	</tr>
+	<tr>
+		<td>월요일</td><td>화요일</td><td>수요일</td><td>목요일</td><td>금요일</td><td>토요일</td>
+	</tr>
+	<tr>
+		<td>1교시</td><td></td><td></td>
+		<td></td><td>웹 프로그래밍-01(1호관(천안) 210)</td><td></td><td></td>
+	</tr>
+	<tr>
+		<td>2교시</td><td>웹 프로그래밍-01(1호관(천안) 210)</td><td></td>
+		<td></td><td>경영정보시스템-01(1호관(천안) 210)</td><td></td><td></td>
+	</tr>
+    <tr>
+        <td>3교시</td><td>웹 프로그래밍-01(1호관(천안) 210)</td><td></td>
+		<td>대학영어회화2-35(3호관(천안) 105)</td><td>경영정보시스템-01(1호관(천안) 210)</td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>4교시</td><td>경영통계-02(1호관(천안) 210)</td><td></td>
+		<td>대학영어회화2-35(3호관(천안) 105)</td><td>경영정보시스템-01(1호관(천안) 210)</td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>5교시</td><td>경영통계-02(1호관(천안) 210)</td><td></td>
+		<td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>6교시</td><td>경영통계-02(1호관(천안) 210)</td><td></td>
+		<td></td><td>디지털콘텐츠비즈니스개론(창업)-01(1호관(천안) 202)</td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>7교시</td><td></td><td></td>
+		<td></td><td>디지털콘텐츠비즈니스개론(창업)-01(1호관(천안) 202)</td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>8교시</td><td></td><td></td>
+		<td></td><td>자기이해와개발1-AW(벤처교육관(천안) 301)</td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>9교시</td><td></td><td>디지털콘텐츠비즈니스개론(창업)-01(1호관(천안) 202)</td>
+		<td></td><td>가상현실과비즈니스모델(3)-97(벤처교육관(천안) 308)</td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>10교시</td><td></td><td>자기주도학습1-AW(벤처교육관(천안) 302)</td>
+		<td></td><td>가상현실과비즈니스모델(3)-97(벤처교육관(천안) 308)</td><td></td><td></td>
+    </tr>
 
-    -취미:
-    <input type="checkbox">게임
-    <input type="checkbox">음악감상
-    <input type="checkbox">영화감상
-    <br><br>
-    -파일 첨부: <input type="file"> <br><br>
-    -이메일: <input type="text">@
-    <select>
-        <option>선택</option>
-        <option>naver.com</option>
-        <option>daum.net</option>
-        <option>gmail.com</option>
-    </select>
-    <br><br>
-    -자기소개:
-    <textarea row="10" col="100"></textarea>
-    <br><br>
-    <input type="submit" value="확인">
-    <input type="reset" value="취소">
-</form>
+</table>
+<a href="ex1.html">
+    회원가입
+</a>
 </body>
 </html>
